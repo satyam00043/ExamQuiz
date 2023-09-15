@@ -1,0 +1,33 @@
+/* Variables for blue and pink colors */
+$blue-color: #007bff; /* Change this to your desired shade of blue */
+$pink-color: #ff69b4; /* Change this to your desired shade of pink */
+
+/* Styles for the navigation bar */
+.navbar {
+  background-color: $blue-color; /* Set the background color to blue */
+  padding: 10px; /* Adjust the padding as needed */
+  display: flex;
+  justify-content: center;
+
+  .btn {
+    color: $pink-color; /* Set the button text color to blue */
+    background-color: transparent;
+    border-color: $pink-color; /* Set the button border color to blue */
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color:navajowhite; /* Change button background on hover */
+      color: rgb(150, 106, 106); /* Change text color on hover */
+    }
+  }
+
+  .btn-outline-secondary {
+    color: $pink-color; /* Set the secondary button text color to pink */
+    border-color: $pink-color; /* Set the secondary button border color to pink */
+
+    &:hover {
+      background-color: $pink-color; /* Change secondary button background on hover */
+      color: rgb(109, 5, 74); /* Change secondary button text color on hover */
+    }
+  }
+}
